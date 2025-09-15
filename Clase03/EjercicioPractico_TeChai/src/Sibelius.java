@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 
-import javax.swing.JSpinner.ListEditor;
-
 public class Sibelius {
     public static void main(String[] args) throws Exception {
 
@@ -70,7 +68,7 @@ public class Sibelius {
         prodArray2.add(" CAfÉ en aRraY2");
         prodArray2.add("  MaTE cOcido en array2    ");
         //prodArray2.forEach(System.out::println);
-//imprimo tal cual original
+        //imprimo tal cual original
         System.out.println("----------- Imprimo inicial ---------");
         System.out.println(prodArray2.toString());
 
