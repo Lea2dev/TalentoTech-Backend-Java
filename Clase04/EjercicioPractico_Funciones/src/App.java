@@ -7,9 +7,9 @@ public class App {
 // PARTE 1
         System.out.println("Ingrese un importe");
         Scanner sc = new Scanner(System.in);
-        Double importe = sc.nextDouble();
+        double importe = sc.nextDouble();
         double impuesto = 21.0;
-        Double importeFinal = calcularImpuesto(importe,impuesto);
+        double importeFinal = calcularImpuesto(importe,impuesto);
         System.out.format(Locale.forLanguageTag("es-AR"), "%.2f", importeFinal);
 // PARTE 2
         short descuento = 5;
