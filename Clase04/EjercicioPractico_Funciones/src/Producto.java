@@ -1,26 +1,26 @@
 
 public class Producto {
-    private String Descripcion;
+    private String desc;
     private Double importe;
     private int stock;
     
     public Producto(String descripcion, Double importe, int stock) {
-        Descripcion = descripcion;
+        desc = descripcion;
         this.importe = importe;
         this.stock = stock;
     }
 
     @Override
     public String toString() {
-        return "Producto [Descripcion=" + Descripcion + ", importe=" + importe + ", stock=" + stock + "]";
+        return "Producto [desc=" + desc + ", importe=" + importe + ", stock=" + stock + "]";
     }
 
-    public String getDescripcion() {
-        return Descripcion;
+    public String getdesc() {
+        return desc;
     }
 
-    public void setDescripcion(String descripcion) {
-        Descripcion = descripcion;
+    public void setdesc(String descripcion) {
+        desc = descripcion;
     }
 
     public Double getImporte() {
